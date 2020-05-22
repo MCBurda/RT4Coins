@@ -1,0 +1,1654 @@
+
+
+/* -----------------------  HTML Standard tag styling  -----------------------  */
+
+
+body {
+    background-color: white;
+    border: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font: Assistant, sans-serif;
+}
+
+footer {
+    background-color: #23093d;
+    color: #ffffff;
+    align-items: left;
+    padding: 25px 0px 30px 0px;
+    align-items: center;
+    border: none;
+}
+
+
+/* -----------------------  Overriding the Bootstrap classes -----------------------  */
+
+.navbar {
+    background-color: white;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.30);
+    height: 54.5px;
+}
+
+.navbar-brand {
+    padding-left: 8px;
+    padding-top: 6.4px;
+    padding-bottom: 10px;
+    background-color: #ffff4f;
+    width:90px;
+    border-radius: 36px;
+    height: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    border: 0.6px solid black;
+    transition-property: color border;
+    transition-duration: 0.4s;
+}
+
+.navbar-brand:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.navbar-light .navbar-toggler:hover {
+    background-color: #ffff4f;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.nav-item {
+    padding: 0px 20px 0px 20px;
+    background-color: white;
+}
+
+.nav-link {
+    transition-property: color padding;
+    transition-duration: 0.5s;
+    font-family: Assistant, sans-serif;
+    font-weight: 400;
+    background-color: white;
+    width: auto;
+}
+
+.nav-link:hover {
+    opacity: 100%;
+    color: #5e0CB3 !important;
+    padding-left: 10px;
+}
+.container {
+    padding-right:0;
+    padding-left:0;
+    margin-right:0;
+    margin-left:0;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
+ }
+
+ .row {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+ }
+
+ .col {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+ }
+
+ .list-group-item-action.active {
+     background-color: #23093d;
+     outline: none;
+     border: #23093d;
+ }
+
+/* -----------------------  Custom IDs ----------------------- */
+
+/* Navbar related */
+
+#navbarImage {
+    width:auto;
+    max-width: 20%;
+    height: auto;
+    padding-bottom: 3px;
+}
+
+/* Homepage Intro related */
+
+#homepageTitle {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 36px;
+}
+
+
+#RT4-intro {
+    
+    width: 100%;
+    height: 500px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+    background: url(Images/homepage\ Background\ 0-600px.jpg) no-repeat center;
+    background-size: auto;
+}
+
+#bitcoinPNG {
+    width: 60px;
+    height: 60px;
+}
+
+#ethereumPNG {
+    width: 30px;
+    height: 48.85px;
+}
+
+#digibytePNG {
+    width: 50px;
+    height: 50px;
+}
+
+#trezarcoinPNG {
+    width: 40px;
+    height: 40px;
+}
+
+#dogecoinPNG {
+    width: 40px;
+    height: 40px;
+}
+
+#trezarcoinDiv {
+    left:20px;
+}
+#digibyteDiv {
+    left:10px;
+}
+
+#ethereumDiv {
+    right: 10px;
+}
+
+#dogecoinDiv {
+    right: 20px;
+}
+
+#pageTitleDiv {
+    max-height:15%;
+}
+
+#blankDiv {
+    height:25%;
+}
+
+/* Homepage How it works related */
+
+#homepageTitleComponents {
+    margin-right: 0px;
+}
+
+#RT4-HowItWorks {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #5e0CB3;
+}
+
+#homepageHowGraphic {
+    width: 100%;
+    height: auto;
+}
+
+#howToBox1 {
+    background: rgba(255, 255, 105, 0.1);
+}
+
+#howToBox2 {
+    background: rgba(255, 255, 105, 0.4);
+}
+
+#howToBox3 {
+    background: rgba(255, 255, 105, 0.7);
+}
+
+#howToBox4 {
+    background: rgba(255, 255, 105, 1);
+}
+
+#invisibleHowToBox {
+    border: none;
+    padding: 0px;
+    height: 80px;
+    margin: 0px 0px 15px 0px;
+}
+
+#readMoreBox {
+    border: none;
+    margin: 0px 0px 15px 0px;
+    text-align: right;
+    height: 80px;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+
+#readMoreBoxText {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+#readMoreBoxLink {
+    color: #5e0CB3;
+}
+
+#readMoreBoxLink:hover{
+    color: #5e0CB3;
+    border: none;
+}
+
+#readMoreImg {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 50px;
+    margin-top: 17px;
+    margin-bottom: 13px;
+    fill: #5e0CB3;
+    display: block;
+    padding-left: 5px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    right: 0px;
+}
+
+#readMoreBox:hover #readMoreImg {
+    right: -7px;
+}
+
+/* Dashboard Coinkit IDs */
+
+#RT4-Dashboard{
+    background: linear-gradient(
+        70deg,
+        #23093d 45%, #5e0CB3
+    );
+    padding: 40px 0px 40px 0px;
+}
+
+#dashboardDiv {
+    vertical-align: middle;
+}
+
+#trendSVG {
+    height: 50px;
+    width: 50px;
+    fill: #ffffff;
+    margin-right: 0px;
+    margin-top:5px;
+}
+
+#coinkitLogo {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+
+}
+
+#dashboardHeading {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle;
+}
+
+#dashboardPlusSign {
+    position: relative;
+    top:-6px;
+    height: 80px;
+    margin: 0px 5px 0px 10px;
+    font-size: 35px;
+}
+
+#dashboardText {
+    text-align: center;
+    line-height: 45px;
+    margin: 0px;
+}
+
+
+
+
+/* Homepage Showcasing the Bots */
+
+#RT4-Bots {
+    background-color: #5e0CB3;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 2% 5% 5% 5%;
+}
+
+
+#botsJumbotron {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#botsJumbotron:target div div div div div a .latestTweets {    
+    fill: #C287FF;
+}
+
+#botsJumbotron:target div div .greyOut {
+    fill: #acacac;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#botsJumbotron:target div div div div div a .greyOut {    
+    fill: #acacac;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#botsJumbotron:target div div div div .greyOut {
+    color: #acacac;
+}
+
+/* ------------- How it works page IDs -----------*/
+
+/* How it works header image */
+
+#RT4-how-intro {
+    
+    width: 100%;
+    height: 500px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+    background: url(Images/Coinkit\ how\ Background\ 0-700px.jpg) no-repeat center;
+    background-size: auto;
+}
+
+#gearCol{
+    height: 60%;
+}
+
+#gearDiv { /* overwrites parts of .cryptoDisplay1 */
+    width: 112px; 
+    margin-top: 15px;
+    padding:5px;
+}
+
+#gearSVG {
+    width: 100px;
+    height: 100px;
+    fill: #5e0CB3;
+}
+
+#RT4-HowDiagram {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #5e0CB3;
+}
+
+/* How it works visualization of process */
+#blankFullCol {
+    height: 40px;
+}
+
+#blankHalfCol {
+    height: 20px;
+}
+
+#howArrowUpRight {
+    transform: rotate(-45deg);
+}
+
+#howArrowUpLeft {
+    transform: rotate(45deg);
+}
+
+/* How it works receiving coins */
+
+#RT4-receivingCoins {
+    background: linear-gradient(135deg, #ffff4f, white);
+    border: 1px solid #5E0CB3;
+    border-bottom: none;
+    border-top: none;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#spinningCryptoDiv {
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 42px;
+    height: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#spinningCrypto {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#cryptoStack {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:-40px;
+}
+
+#coinRow {
+    height: 30px;
+}
+
+/* botCodes section IDs */
+
+#RT4-botCodes {
+    background: linear-gradient(
+        to bottom,
+        #23093d,
+        #5e0CB3
+    );
+    border-top: none;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 2% 0% 5% 0%;
+}
+
+#list-coinkit-title {
+    padding-right:5px;
+    padding-left: 5px;
+}
+
+#list-cctip-title {
+    padding-right:5px;
+    padding-left: 5px;
+}
+
+#botCodesTitle {
+    height: auto;
+}
+
+#botExampleCommentDescription {
+    margin-right:0px;
+}
+
+
+/* ------------- Contact Us page IDs -----------*/
+
+#RT4-contact-intro {
+    width: 100%;
+    height: 500px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+    background: url(Images/Coinkit\ contact\ Background\ 0-700px.jpg) no-repeat center;
+    background-size: auto;
+}
+
+#mailSVG {
+    width: 100px;
+    height: 100px;
+    fill: #5e0CB3;
+}
+
+#RT4-ContactForm {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #5e0CB3;
+}
+
+#contactFormRow {
+    margin: 40px 0px 60px 0px;
+    padding: 0px 15px 0px 15px;
+}
+
+#contactFormCol {
+    border: 1px solid rgba(93, 12, 179, 0.425); 
+
+}
+
+#inFormHeading {
+    margin: 10px 0px 10px 0px;
+}
+
+#contactFormSubmit{
+    background-color: #ffff4f;
+    color: #5e0CB3;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 50px;
+    width: auto;
+    padding: 6px 30px 7px 30px;
+    vertical-align: middle;
+}
+
+#contactFormCol:hover{
+    box-shadow: 0px 0px 20px #5e0CB3;
+}
+
+/*-------------- About Us page -------------*/
+
+#RT4-about-intro {
+    width: 100%;
+    height: 500px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+    background: url(Images/Coinkit\ about\ Background\ 0-700px.png) no-repeat center;
+    background-size: auto;
+}
+
+#aboutDiv {    
+    width: 112px; 
+    margin-top: 15px;
+    padding:5px;
+}
+
+#aboutImage {
+    width: 100px;
+    height: 100px;
+    fill: #5e0CB3;
+}
+
+#ITUpictureFrame {
+    padding: 0px;
+    align-items: center;
+}
+
+#ITUpictureCaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+#ITUpicture {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#headshot {
+    width: 90px;
+    height: 90px;
+}
+
+/* ------------ Footer IDs ------------*/
+
+
+#footerBrandText {
+    font-size: 22px;
+}
+
+#footerBrandImage {
+    height: 30px;
+    width: 30px;
+    fill: white;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    position: relative;
+    left: 0px;
+    opacity: 100%;
+    transition-property: left;
+    transition-duration: 0.3s;
+}
+
+#footerBrandCol {
+    padding-left: 0px;
+}
+
+#footerFirstRow {
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+#copyright {
+    font-size: 11px;
+}
+
+#copyrightDiv {
+    padding-top:7px;
+    text-align: right;
+    align-items: flex-end;
+}
+
+
+ /* -----------------------  Custom Classes ----------------------- */
+
+/* General Text Classes */
+
+.RT4-headings {
+    color:#5e0CB3;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    white-space: normal;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.RT4-sectionHeadings {
+    text-align: left;
+    margin-bottom: 25px;
+    font-family: Assistant, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 0px;
+    height: auto;
+}
+
+.RT4-paragraphs {
+    color:#5e0CB3;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    white-space: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+
+/* Classes for the homepage */
+
+/* Homepage - Intro */
+
+.RT4-page {
+    width: 100%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.RT4-row {
+    background-color: none;
+    height: 100%;
+    border: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.RT4-intro-col {
+    border: 0px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    height: 60%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cryptoDisplay1 {
+    padding: 15px;
+    width: 92px; /* width of the bitcoinPNG with BorderBox formatting */
+    margin-top: 50px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #e7cfff;
+    border: 1px solid #d3a8ff;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.cryptoDisplay2 {
+    padding: 15px;
+    width: 82px; /* width of the PNG with BorderBox formatting */
+    margin-top: 30px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #e7cfff;
+    border: 1px solid #d3a8ff;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.cryptoDisplay3 {
+    padding: 15px;
+    width: 72px; /* width of the PNG with BorderBox formatting */
+    margin-top: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #e7cfff;
+    border: 1px solid #d3a8ff;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Homepage - CoinKit Dashboard */
+
+.dashboardParts {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+/* Homepage - How it works */
+
+.howToBox {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.howToBox:hover {
+    box-shadow: 0px 0px 20px #5e0CB3;
+}
+
+
+.howToBoxText {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.howToCircles {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 25px 10px 25px 15px;
+    background-color: #C287FF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.howToCirclesText {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+    margin: 8px;
+    padding: 0px;
+}
+
+.howToBoxImgs {
+    position: relative;
+    float: right;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 25px 25px 25px 0px;
+}
+
+/* Homepage bots section classes */
+
+.cardDivs {
+    padding: 10px;
+}
+
+.botCards {
+    width: 100%;
+    height: auto;
+}
+
+.botBorderless {
+    border-bottom: none;
+    border-top: none;
+}
+
+.botCardImages {
+    margin: 0px;
+    height:50px;
+    width:50px;
+    fill: #1DA1F2;
+    transition-property: padding fill;
+    transition-duration: 0.5s;
+    box-shadow: none;
+}
+
+.botCardImages:hover {
+    padding-bottom: 6px;
+}
+
+.botCardText {
+    white-space: nowrap;
+    text-align: center;
+    color: #5e0CB3;
+    padding-left: 0px;
+    transition-property: color;
+    transition-duration: 0.5s !important; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botCardText:hover {
+    color: #1DA1F2;
+}
+
+.botCardTextHeading {
+    margin-bottom: 20px;
+    white-space: wrap;
+    text-align: center;
+    color: #5e0CB3;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botCardActionDivs {
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.botCardIconRow {
+    margin-top: 45px;
+}
+
+.botCardTextRow {
+    margin-top: 2px;
+}
+
+.latestTweets {
+    fill: #1DA1F2;
+    transition-property: fill color ;
+    transition-duration: 1.5s;
+}
+
+.greyOut {
+    transition-property: fill color;
+    transition-duration: 1.5s;
+}
+
+/* ----------------- How it works page -------------*/
+
+/* How it works page classes */
+
+
+.textHeaderSpacing {
+    margin: 0px;
+}
+
+.howVisualizationCol {
+    padding: 0px;
+    margin: 0px;
+}
+
+.howVisualizationText {
+    line-height: 23px;
+    margin: 2px 0px 2px 0px;
+    white-space: normal;
+    
+}
+
+.howVisualizationArrows {
+    font-size: 34px;
+    color: #5e0CB3;
+    font-weight: bold;
+}
+
+.howLaptops {
+    width: 50px;
+    height: 50px;
+    fill: #5e0CB3;
+}
+
+.howVisualizationImages {
+    margin-top: 8px;
+    height:60px;
+    width:60px;    
+}
+
+/* How to receive coins section classes  */
+
+.howReceiveCoinsBox {
+    margin-top: 0px;
+    text-align: left;
+    height: auto;
+    overflow: normal;
+    padding: 0px;
+}
+
+.howReceiveCoinsCircles {
+    height: 50px;
+    width: 50px;
+    margin: 25px 0px 25px 0px;
+    background-color: #C287FF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.howReceiveCoinsText {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 30px;
+    white-space: normal;
+}
+
+.howReceiveCoinsTextContainer {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* How to know when to retweet classes */
+
+.botCodesRow {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.formulaContainer {
+    border-color: white;
+    border-width: 1px;
+    background-color:white;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 10px 15px 10px;
+    padding: 0px 0px 15px 0px;
+}
+
+.formulaText {
+    font-family: Assistant, sans-serif;
+    margin: 10px 10px 20px 15px;
+    font-weight: 500;
+    height: auto;   
+    font-size: 18px;
+    color: black;
+}
+
+.formulaTitle {
+    margin: 20px 10px 0px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.formula {
+    margin: 40px 10px 50px 10px;
+    font-weight: 500;
+    height: auto;
+    font-size: 18px;
+    color: #ffff4f;
+    text-align: center;
+}
+
+.formulaPiece {
+    font-weight: 400;
+    font: Assistant, sans-serif;
+    color: black;
+    height: auto;
+    font-size: 18px; 
+    white-space: normal;  
+}
+
+.formulaArrow {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.formulaRows { 
+    /* This needs to be adjusted to screen size*/
+    margin: 10px 18px 10px 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.formulaCols {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.formulaImage {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.botExampleTweet {
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 0px 25px 0px;
+}
+
+.botCodesConfirmCards {
+    background-color: #00000000;
+    border: none;
+}
+
+.botCodeConfirmImages {
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0px 10px 0px;
+    padding: 5px 0px 0px 0px;
+    text-align: left;
+}
+
+.botExampleComment {
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.botExampleCommentTitle {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+/* ------------------ Contact Us Page classes  ---------------*/
+
+.contactFormStyle {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgba(93, 12, 179, 0.555);
+    border-radius: 0px;
+    padding-left: 0px;
+    color: #5e0CB3;
+    font-size: 1.2rem;
+}
+
+.contactFormStyle:focus {
+    background-color: #ffff4f50 !important;
+    border: 1px solid#5e0CB3;
+    padding: 7px;
+    box-shadow: 0px 0px 20px #5e0CB3;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    -webkit-text-fill-color: #5e0CB3 !important;
+    box-shadow: 0 0 0px 1000px #ffffff inset;
+    background-color: #ffff4f50 !important;
+    color: #5e0CB3 !important;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #5e0CB3 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #5e0CB3 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #5e0CB3 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #5e0CB3 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #5e0CB3 !important;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    #5e0CB3 !important;
+}
+
+/* ------------------ About Us classes  ---------------*/
+
+.bioHeading {
+    color: #23093d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.bioText {
+    color: #23093d;
+    font-size: 18px;
+}
+
+
+/* ------------------ Footer classes  ---------------*/
+
+
+.footerRow {
+    height: 20px;
+    padding: 0px;
+    margin: 3px 0px 3px 0px;
+    vertical-align: middle;
+}
+
+
+
+.footerCol {
+    padding-left:9px;
+}
+
+.footerCol li{
+    color: #23093d;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.footerCol:hover p #footerBrandImage {
+    left: -4px;
+}
+
+.footerCol:hover p svg path,
+.footerCol:hover li a,
+.footerCol:hover a {
+    fill: #ffff4f;
+    color: #ffff4f;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.footerCol:hover li {
+    color: #ffff4f;
+}
+
+.footerText {
+    font-family: Assistant, sans-serif;
+    font-weight: 400;
+    padding-top: 0px;
+    font-size: 16px;
+    margin: 0px;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+/* -----------------------  Media Queries -----------------------  */
+
+/* There is a javascript function to cut pictures at 400px */
+
+@media(min-width:575.99px){
+    #trezarcoinDiv {
+        left:8%;
+    }
+    #digibyteDiv {
+        left:3%;
+    }
+
+    #ethereumDiv {
+        right: 3%;
+    }
+
+    #dogecoinDiv {
+        right:8%;
+    }
+
+    #homepageTitleComponents {
+        padding: 0px;
+    }
+
+    #homepageHowPara {
+        margin-right: 0px;
+        margin-left:0px;
+    }
+
+    #homepageHowTitle {
+        margin-right: 0px;
+        margin-left:0px;    
+    }
+
+    #cryptoStack {
+        position: relative;
+        top: -70px;
+        right: -30px;
+        height: 100px;
+        width: 100px;
+    }
+    #contactFormRow {
+        padding: 0px;
+    }
+
+    #headshot {
+        width: 120px;
+        height: 120px;
+    }
+    
+
+    /* Classes */
+    .textHeaderSpacing {
+        padding:0px;
+    }
+    .howToBoxText {
+        text-align: center;
+    }
+    .formulaPiece {
+        font-size: 18px;   
+    }
+    .formula {
+        font-size: 18px;
+    }
+    .botCodesRow {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* Changing the animation of navbar*/
+    .nav-link {
+        transition-property: color padding;
+        transition-duration: 0.5s;
+        font-family: Assistant, sans-serif;
+        font-weight: 400;
+    }
+    
+    .nav-link:hover {
+        opacity: 100%;
+        color: #5e0CB3 !important;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+
+    .nav-item {
+        padding: 0px;
+    }
+
+
+}
+
+@media(min-width:620px){ /* Non-Bootstrap Query */
+    #trezarcoinDiv {
+        left:11.5%;
+    }
+    #digibyteDiv {
+        left:5%;
+    }
+
+    #ethereumDiv {
+        right: 5%;
+    }
+
+    #dogecoinDiv {
+        right: 11.5%;
+    }
+    #copyrightDiv {
+        margin-right:3.5%;
+    }
+
+    #RT4-intro {
+        background: url(Images/homepage\ Background\ 600-1200px.jpg) no-repeat center;
+        background-size: auto;
+    }
+
+    #RT4-how-intro {
+        background: url(Images/Phone_howitworks_picture_300-1200px.jpg) no-repeat center;
+        background-size: auto;
+    }
+
+    #RT4-contact-intro {
+        background: url(Images/Coinkit\ contact\ Background\ 600-1200px.jpg) no-repeat center;
+        background-size: auto;
+    }
+
+    #RT4-about-intro {
+        background: url(Images/Coinkit\ about\ Background\ 600-1200px.png) no-repeat center;
+        background-size: auto;
+    }
+}
+
+@media(min-width:767.99px){
+    #trezarcoinDiv {
+        left:15%;
+    }
+    #digibyteDiv {
+        left:7%;
+    }
+
+    #ethereumDiv {
+        right: 7%;
+    }
+
+    #dogecoinDiv {
+        right: 15%;
+    }
+    #copyrightDiv {
+        margin-right:3.5%;
+    }
+   
+    #coinRow {
+        height: 30px;
+    }
+
+    /* Dashboard adjustment */
+    #cryptoStack {
+        position: relative;
+        top: -110px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #trendSVG {
+        height: 70px;
+        width: 70px;
+        fill: #ffffff;
+        margin-right: 5px;
+        margin-top:5px;
+    }
+    
+    #coinkitLogo {
+        height: 35px;
+        width: 35px;
+        margin-bottom: 5px;
+    
+    }
+    
+    #dashboardHeading {
+        font-size: 65px;
+        text-align: right;
+        margin: 7px 25px 0px 0px;
+    }
+    
+    #dashboardPlusSign {
+        position: relative;
+        top:-9px;
+        height: 80px;
+        margin: 0px 0px 0px 10px;
+        font-size: 40px;
+    }
+    
+    #dashboardText {
+        text-align: left;
+        line-height: 45px;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+
+
+    /*  Classes */
+    .footerCol {
+        margin-left: 4%;
+    }
+    .RT4-headings { 
+        font-size: 36px;
+    }
+    .RT4-sectionHeadings {
+        margin-bottom: 30px;
+        margin-top: 45px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .howToCircles {
+        margin: 25px 10px 25px 25px;
+    }
+}
+
+@media(min-width:880px){ /* Non-Bootstrap Query */
+    #trezarcoinDiv {
+        left:17%;
+    }
+    #digibyteDiv {
+        left: 8%;
+    }
+
+    #ethereumDiv {
+        right: 8%;
+    }
+
+    #dogecoinDiv {
+        right: 17%;
+    }
+}
+
+@media(min-width:991.99px){
+    #trezarcoinDiv {
+        left:15.5%;
+    }
+    #digibyteDiv {
+        left:9.5%;
+    }
+
+    #ethereumDiv {
+        right: 9.5%;
+    }
+
+    #dogecoinDiv {
+        right: 15.5%;
+    }
+
+    #rightLaptop {
+        margin-left: 25%;
+    }
+
+    #leftLaptop {
+        margin-right: 25%;
+    }
+
+    #cryptoStack {
+        position: relative;
+        top: -160px;
+        right: -4   0px;
+        height: 200px;
+        width: 200px;
+    }
+    #RT4-intro {
+        height: 400px;
+    }
+
+    #RT4-how-intro {
+        height: 400px;
+    }
+
+    #RT4-contact-intro {
+        height: 400px;
+    }
+
+    #RT4-about-intro {
+        height: 400px;
+    }
+
+    /* Dashboard adjustment */
+    
+    #trendSVG {
+        height: 80px;
+        width: 80px;
+    }
+    
+    #dashboardHeading {
+        font-size: 75px;
+        margin: 0px 25px 0px 0px;
+    }
+    
+    #dashboardPlusSign {
+        position: relative;
+        top:-8px;
+        height: 80px;
+        font-size: 60px;
+    }
+    
+    #dashboardText {
+        text-align: left;
+        line-height: 45px;
+        margin: 0px;
+    }
+    
+    /* Classes */
+  
+    .howReceiveCoinsCircles {
+        margin: 25px 0px 25px 25px;
+    }
+
+}
+
+@media(min-width:1100px){ /* Non Bootstrap query */
+    #trezarcoinDiv {
+        left:16.5%;
+    }
+    #digibyteDiv {
+        left:10%;
+    }
+
+    #ethereumDiv {
+        right: 10%;
+    }
+
+    #dogecoinDiv {
+        right: 16.5%;
+    }
+}
+
+@media(min-width:1199.99px){
+    #trezarcoinDiv {
+        left: 5%;
+    }
+    #digibyteDiv {
+        left:2%;
+    }
+
+    #ethereumDiv {
+        right: 2%;
+    }
+
+    #dogecoinDiv {
+        right: 5%;
+    }
+
+    #RT4-intro {
+        background: url(Images/Laptop_homepage_picture_1200-1600px.jpg) no-repeat center;
+        background-size: auto;
+    }    
+
+    #homepageTitleComponents {
+        margin-right: 0px;
+    }
+    
+    #cryptoStack {
+        position: relative;
+        top: -200px;
+        right: -40px;
+        height: 210px;
+        width: 210px;
+    }
+    #RT4-how-intro {
+        background: url(Images/Coinkit\ how\ Background\ 1200-2000px.jpg) repeat center;
+        background-size: auto;
+    }
+
+    #RT4-contact-intro {
+        background: url(Images/Coinkit\ contact\ Background\ 1200-2000px.jpg) no-repeat center;
+        background-size: auto;
+    }
+
+    #RT4-about-intro {
+        background: url(Images/Coinkit\ about\ Background\ 1200-2000px.png) no-repeat center;
+        background-size: auto;
+    }
+    
+    
+    /* Classes */
+  
+    .howReceiveCoinsText {
+        margin-left: 0px;
+    }
+
+
+    /* HTML Tags */
+
+    footer {
+        padding-top: 30px;
+    }
+    
+}
+
+@media(min-width:1370px){ /* Non-Bootstrap Query */
+    #trezarcoinDiv {
+        left: 6.6%;
+    }
+    #digibyteDiv {
+        left:3.1%;
+    }
+
+    #ethereumDiv {
+        right: 3.1%;
+    }
+
+    #dogecoinDiv {
+        right: 6.6%;
+    }
+}
+
+@media(min-width:1500px){
+    #trezarcoinDiv {
+        left: 7%;
+    }
+    #digibyteDiv {
+        left:3%;
+    }
+
+    #ethereumDiv {
+        right: 3%;
+    }
+
+    #dogecoinDiv {
+        right: 7%;
+    }
+
+    #RT4-intro {
+        background: url(Images/homepage\ Background\ 1200-2000px.jpg) no-repeat center;
+        background-size: auto;
+    }
+    
+}
