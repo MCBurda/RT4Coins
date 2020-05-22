@@ -8,17 +8,17 @@ var lastWidth;
 
 //Function executes on load
 window.onload = function() {
-    if (window.innerWidth <= 400) {
+    if (window.innerWidth <= 416) {
         removeIntroImages();
     }
     lastWidth = window.innerWidth;
 }
 
 window.onresize = function() {
-    if ((window.innerWidth <= 400) && (lastWidth > 400)) {
+    if ((window.innerWidth <= 416) && (lastWidth > 416)) {
         removeIntroImages();
     }
-    if ((window.innerWidth > 400) && (lastWidth <= 400)) {
+    if ((window.innerWidth > 416) && (lastWidth <= 416)) {
         location.reload();
     }
     lastWidth = window.innerWidth;
